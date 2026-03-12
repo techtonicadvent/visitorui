@@ -1,0 +1,166 @@
+.badge-printer {
+  margin: 30px 0;
+}
+
+.printer-controls {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.btn-print {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-browser {
+  background-color: #667eea;
+  color: white;
+}
+
+.btn-browser:hover {
+  background-color: #5568d3;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+}
+
+.btn-pdf {
+  background-color: #764ba2;
+  color: white;
+}
+
+.btn-pdf:hover {
+  background-color: #653a8a;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(118, 75, 162, 0.3);
+}
+
+.badge-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.badge {
+  width: 340px;
+  height: 540px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.badge-header {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.badge-header h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+}
+
+.badge-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px 0;
+}
+
+.badge-photo {
+  text-align: center;
+  font-size: 60px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.badge-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.badge-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.badge-label {
+  font-size: 0.7rem;
+  opacity: 0.8;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.badge-value {
+  font-size: 0.95rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 5px 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.badge-footer {
+  text-align: center;
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+  font-size: 0.85rem;
+}
+
+.badge-footer p {
+  margin: 3px 0;
+}
+
+.badge-time {
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+.badge-placeholder {
+  background: #f0f0f0;
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+  color: #666;
+}
+
+@media print {
+  .printer-controls {
+    display: none;
+  }
+
+  .badge {
+    box-shadow: none;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .badge {
+    width: 100%;
+    max-width: 340px;
+  }
+}

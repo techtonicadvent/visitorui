@@ -1,0 +1,85 @@
+.visitor-pass {
+  background: white;
+  border: 3px solid #667eea;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
+}
+
+.pass-header {
+  text-align: center;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.pass-header h2 {
+  margin: 0;
+  color: #667eea;
+  font-size: 1.8rem;
+}
+
+.pass-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pass-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.info-item label {
+  font-weight: 600;
+  color: #667eea;
+  font-size: 0.9rem;
+}
+
+.info-item span {
+  color: #333;
+  font-size: 1rem;
+  padding: 5px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+.pass-footer {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px solid #667eea;
+  color: #666;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.pass-placeholder {
+  background: #f0f0f0;
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+  color: #666;
+}
+
+@media screen and (max-width: 768px) {
+  .visitor-pass {
+    padding: 20px;
+  }
+
+  .pass-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
