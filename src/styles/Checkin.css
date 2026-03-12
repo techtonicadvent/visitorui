@@ -1,28 +1,31 @@
 .checkin-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  padding: 40px 20px;
+  background: linear-gradient(135deg, #e8f4f8 0%, #ecf0ff 100%);
+  padding: 50px 20px;
 }
 
 .checkin-content {
   max-width: 700px;
   margin: 0 auto;
   background: white;
-  border-radius: 12px;
-  padding: 40px;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 50px;
+  box-shadow: 0 10px 40px rgba(0, 102, 204, 0.12);
+  border: 2px solid #e0f2f7;
 }
 
 .checkin-content h1 {
-  color: #667eea;
-  margin: 0 0 10px 0;
+  color: #0066cc;
+  margin: 0 0 12px 0;
   font-size: 2.2rem;
+  font-weight: 800;
 }
 
 .subtitle {
-  color: #666;
-  margin: 0 0 30px 0;
+  color: #888;
+  margin: 0 0 40px 0;
   font-size: 1rem;
+  font-weight: 400;
 }
 
 .checkin-form {
@@ -41,9 +44,10 @@
 }
 
 .form-section h3 {
-  color: #333;
-  margin: 0 0 20px 0;
+  color: #0066cc;
+  margin: 0 0 25px 0;
   font-size: 1.3rem;
+  font-weight: 700;
 }
 
 .form-group {
@@ -61,27 +65,30 @@
 
 .form-group label {
   font-weight: 600;
-  color: #333;
+  color: #0d1b2a;
   font-size: 0.95rem;
+  letter-spacing: 0.3px;
 }
 
 .form-group input,
 .form-group textarea,
 .form-group select {
-  padding: 12px 15px;
-  border: 2px solid #e0e0e0;
-  border-radius: 6px;
+  padding: 13px 16px;
+  border: 1.5px solid #b3e5fc;
+  border-radius: 8px;
   font-size: 1rem;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
   font-family: inherit;
+  background: #f0f9ff;
 }
 
 .form-group input:focus,
 .form-group textarea:focus,
 .form-group select:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  border-color: #0066cc;
+  background: white;
+  box-shadow: 0 0 0 4px rgba(0, 102, 204, 0.1);
 }
 
 .form-group textarea {
@@ -109,13 +116,15 @@
 }
 
 .btn-submit {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0066cc 0%, #00bcd4 100%);
   color: white;
+  font-weight: 700;
 }
 
 .btn-submit:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 102, 204, 0.35);
+  letter-spacing: 0.5px;
 }
 
 .btn-submit:active {
