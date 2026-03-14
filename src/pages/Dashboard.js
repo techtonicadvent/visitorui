@@ -88,7 +88,7 @@ export default function Dashboard(){
           <div className="stat-icon">⏰</div>
           <div className="stat-content">
             <div className="stat-label">Peak Hours</div>
-            <div className="stat-value">10AM-2PM</div>
+            <div className="stat-value peak-hours">10am to 2pm</div>
           </div>
         </div>
       </div>
